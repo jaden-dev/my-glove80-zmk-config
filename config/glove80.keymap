@@ -135,7 +135,7 @@
             bindings = <
           &kp F12       &kp F1    &kp F2  &kp F3  &kp F4                                                                                                    &kp F7      &kp F8          &kp F9         &kp F10        &kp F11
           &kp F12       &kp N1    &kp N2  &kp N3  &kp N4      &kp N5                                                                                &kp N6  &kp N7      &kp N8          &kp N9          &kp N0        &kp F11
- &sht TAB LS(TAB)        &kp Q     &kp W   &kp E   &kp R       &kp T                                                                                 &kp Y   &kp U       &kp I           &kp O           &kp P       &kp BSPC
+ &sht LS(TAB) TAB        &kp Q     &kp W   &kp E   &kp R       &kp T                                                                                 &kp Y   &kp U       &kp I           &kp O           &kp P       &kp BSPC
     &mt LCTRL ESC        &kp A     &kp S   &kp D   &kp F       &kp G                                                                                 &kp H   &kp J       &kp K           &kp L        &kp SEMI  &mt RCTRL SQT
         &sk LSHFT  &mt LCTRL Z     &kp X   &kp C   &kp V  &mt LALT B    &lt 1 TAB  &kp GRAVE  &magic 2 0  &magic 2 0    &kp MINUS    &lt 3 RET  &mt RALT N   &kp M   &kp COMMA         &kp DOT  &mt RCTRL FSLH      &sk RSHFT
             &none        &none  &sk LALT  &tog 1   &sl 1              &lt 4 SPACE  &kp DQT    &to 0       &to 0         &kp UNDER    &lt 4 SPACE             &sl 3  &caps_word  &kp LA(LSHIFT)  &kp LC(LSHIFT)       &sk LGUI
@@ -146,7 +146,7 @@
             bindings = <
                     &none             &none      &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP                                                                                           &kp C_PREV    &kp K_PP     &kp C_NEXT       &none      &none
                   &kp ESC        &kp LG(N1)          &kp F2      &kp LA(UP)       &kp LG(N4)         &kp LG(N5)                                                          &kp LG(N6)    &kp LG(N7)  &kp LG(N8)     &kp LG(N9)  &kp LG(N0)      &none
- &sht LA(TAB) LA(LS(TAB))      &kp LS(HOME)    &kp LA(LEFT)    &kp UP_ARROW    &kp LA(RIGHT)        &kp LS(END)                                                          &kp LS(UP)  &kp LC(LEFT)   &kp PSCRN  &kp LC(RIGHT)       &none   &kp BSPC
+ &sht LA(LS(TAB)) LA(TAB)        &kp LS(HOME)    &kp LA(LEFT)    &kp UP_ARROW    &kp LA(RIGHT)        &kp LS(END)                                                          &kp LS(UP)  &kp LC(LEFT)   &kp PSCRN  &kp LC(RIGHT)       &none   &kp BSPC
                 &kp LCTRL  &kp LC(LS(LEFT))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(LS(RIGHT))                                                        &kp LS(DOWN)       &kp INS    &kp HOME      &kp PG_UP  &bksp_word  &kp RCTRL
                 &sk LSHFT         &kp LCTRL       &kp LC(X)      &kp K_COPY      &kp K_PASTE           &kp LALT    &kp TAB   &none   &none   &none   &none    &kp RET      &kp RALT       &kp DEL     &kp END      &kp PG_DN    &kp BSPC  &sk RSHFT
                    &trans            &trans          &trans          &trans           &trans                     &kp SPACE   &none   &to 0   &to 0   &none  &kp SPACE                       &none       &none         &trans      &trans     &trans
@@ -168,9 +168,9 @@
             bindings = <
                     &none      &none      &none   &kp LG(D)        &none                                                                                         &none          &none  &kp LG(L)  &kp LG(P)   &none
           &kp LC(LS(ESC))      &none      &none       &none  &kp LG(TAB)      &none                                                                      &none   &none          &none      &none      &none   &none
- &sht LC(TAB) LC(LS(TAB))      &none  &kp LC(W)   &kp LG(E)    &kp LC(R)  &kp LC(T)                                                                      &none   &none  &kp LG(PSCRN)      &none  &kp LC(P)   &none
+ &sht LC(LS(TAB)) LC(TAB)      &none  &kp LC(W)   &kp LG(E)    &kp LC(R)  &kp LC(T)                                                                      &none   &none  &kp LG(PSCRN)      &none  &kp LC(P)   &none
                     &none  &kp LC(A)  &kp LC(S)   &kp LC(D)    &kp LC(F)      &none                                                                      &none   &none  &kp LC(EQUAL)  &kp LC(L)      &none   &none
-                    &none  &kp LC(Z)  &kp LC(X)  &kp K_COPY  &kp K_PASTE      &none  &sht LC(TAB) LC(LS(TAB))   &none   &none   &none   &none  &kp RET   &none   &none  &kp LC(MINUS)      &none      &none   &none
+                    &none  &kp LC(Z)  &kp LC(X)  &kp K_COPY  &kp K_PASTE      &none  &sht LC(LS(TAB)) LC(TAB)   &none   &none   &none   &none  &kp RET   &none   &none  &kp LC(MINUS)      &none      &none   &none
                     &none      &none      &none       &none        &none                                &none   &none   &to 0   &to 0   &none    &none          &trans          &none      &none      &none   &none
             >;
         };
