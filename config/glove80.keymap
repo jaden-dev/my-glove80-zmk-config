@@ -117,11 +117,18 @@
             bindings = <&kp LC(LS(LEFT)) &kp BACKSPACE>;
         };
 
+        comma_space: comma_space {
+            compatible = "zmk,behavior-macro";
+            label = "comma_space";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA &kp SPACE>;
+        };
+
         sht: slow_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "slow_hold_tap";
             #binding-cells = <2>;
-            tapping-term-ms = <220>;
+            tapping-term-ms = <230>;
             bindings = <&kp>, <&kp>;
         };
     };
