@@ -138,7 +138,7 @@
           &kp TAB        &kp Q     &kp W   &kp E   &kp R       &kp T                                                                                 &kp Y   &kp U       &kp I           &kp O               &kp P     &kp LS(TAB)
     &mt LCTRL ESC        &kp A     &kp S   &kp D   &kp F       &kp G                                                                                 &kp H   &kp J       &kp K           &kp L            &kp SEMI  &mt RCTRL BSPC
         &sk LSHFT  &mt LCTRL Z     &kp X   &kp C   &kp V  &mt LALT B    &lt 1 TAB  &kp SQT  &magic 2 0  &magic 2 0    &kp MINUS    &lt 3 RET    &mt RALT N   &kp M   &kp COMMA         &kp DOT      &mt RCTRL FSLH       &sk RSHFT
-            &none        &none  &sk LALT  &tog 1   &sl 1              &lt 4 SPACE  &kp DQT    &to 0       &to 0       &kp UNDER    &lt 4 SPACE               &sl 3  &caps_word  &kp LA(LSHIFT)  &kp LC(LA(LSHIFT))        &sk LGUI
+            &none        &none  &sk LALT  &tog 1   &sl 1              &lt 4 SPACE  &kp DQT    &to 0       &to 0       &kp UNDER    &lt 4 SPACE               &sl 3  &caps_word  &kp LA(LSHIFT)  &kp LC(LA(LSHIFT))        &kp LGUI
             >;
         };
 
