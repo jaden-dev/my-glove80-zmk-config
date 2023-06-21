@@ -186,7 +186,7 @@
             bindings = <
      &none      &none     &none     &none      &none                                                                               &none     &none     &none      &none      &none
    &kp F12     &kp F1    &kp F2    &kp F3     &kp F4     &kp F5                                                         &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
-     &none    &kp SQT    &kp AT    &kp LT  &kp PRCNT     &GRAVE                                                          &none  &kp AMPS    &kp GT  &kp BSLH  &kp MINUS      &none
+     &none    &kp SQT    &kp AT    &kp LT  &kp PRCNT  &kp GRAVE                                                          &none  &kp AMPS    &kp GT  &kp BSLH  &kp MINUS      &none
  &kp LCTRL  &kp EQUAL  &kp LBRC  &kp LPAR   &kp LBKT   &kp EXCL                                                      &kp CARET  &kp RBKT  &kp RPAR  &kp RBRC  &kp COLON  &kp RCTRL
  &kp LSHFT  &kp TILDE  &kp PLUS  &kp HASH   &kp DLLR      &none   &none      &trans  &none   &none  &trans    &none      &none  &kp STAR  &kp PIPE  &kp FSLH  &kp QMARK  &kp RSHFT
      &none      &none  &kp LALT     &none      &none             &trans      &trans  &to 0   &to 0  &trans   &trans                &none     &none  &kp RALT      &none      &none
