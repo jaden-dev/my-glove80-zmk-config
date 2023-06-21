@@ -140,23 +140,23 @@
 
         layer_QWERTY {
             bindings = <
-          &kp F12       &kp F1    &kp F2  &kp F3  &kp F4                                                                                                    &kp F7      &kp F8          &kp F9             &kp F10         &kp F11
-          &kp F12       &kp N1    &kp N2  &kp N3  &kp N4      &kp N5                                                                                &kp N6  &kp N7      &kp N8          &kp N9              &kp N0         &kp F11
-          &kp TAB        &kp Q     &kp W   &kp E   &kp R       &kp T                                                                                 &kp Y   &kp U       &kp I           &kp O               &kp P     &kp LS(TAB)
-    &mt LCTRL ESC        &kp A     &kp S   &kp D   &kp F       &kp G                                                                                 &kp H   &kp J       &kp K           &kp L            &kp SEMI  &mt RCTRL BSPC
-        &sk LSHFT  &mt LCTRL Z     &kp X   &kp C   &kp V  &mt LALT B    &lt 1 TAB  &kp SQT  &magic 2 0  &magic 2 0    &kp MINUS    &lt 3 RET    &mt RALT N   &kp M   &kp COMMA         &kp DOT      &mt RCTRL FSLH       &sk RSHFT
-            &none        &none  &sk LALT  &tog 1   &sl 1              &lt 4 SPACE  &kp DQT    &to 0       &to 0       &kp UNDER    &lt 4 SPACE               &sl 3  &caps_word  &kp LA(LSHIFT)  &kp LC(LA(LSHIFT))        &kp LGUI
+          &kp F12       &kp F1    &kp F2            &kp F3  &kp F4                                                                                                         &kp F7                &kp F8          &kp F9             &kp F10         &kp F11
+          &kp F12       &kp N1    &kp N2            &kp N3  &kp N4      &kp N5                                                                                &kp N6       &kp N7                &kp N8          &kp N9              &kp N0         &kp F11
+          &kp TAB        &kp Q     &kp W             &kp E   &kp R       &kp T                                                                                 &kp Y        &kp U                 &kp I           &kp O               &kp P     &kp LS(TAB)
+    &mt LCTRL ESC        &kp A     &kp S             &kp D   &kp F       &kp G                                                                                 &kp H        &kp J                 &kp K           &kp L            &kp SEMI  &mt RCTRL BSPC
+        &sk LSHFT  &mt LCTRL Z   &lt 4 X             &kp C   &kp V       &kp B      &kp TAB  &kp SQT  &magic 2 0  &magic 2 0    &kp MINUS        &kp RET       &kp N        &kp M          &comma_space       &lt 4 DOT      &mt RCTRL FSLH       &sk RSHFT
+            &none        &none  &sk LALT  &kp LC(LG(LEFT))   &sl 1              &lt 1 SPACE  &kp DQT       &to 0       &to 0    &kp UNDER    &lt 3 SPACE               &caps_word     &kp LC(LG(RIGHT))        &sk RALT  &kp LC(LA(LSHIFT))        &kp LGUI
             >;
         };
 
         layer_Fn1 {
             bindings = <
-                    &none             &none      &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP                                                                                            &kp C_PREV    &kp K_PP     &kp C_NEXT       &none            &none
-                  &kp ESC         &kp LG(N1)          &kp F2      &kp LA(UP)       &kp LG(N4)         &kp LG(N5)                                                          &kp LG(N6)    &kp LG(N7)  &kp LG(N8)     &kp LG(N9)  &kp LG(N0)            &none
-              &kp LA(TAB)       &kp LS(HOME)    &kp LA(LEFT)    &kp UP_ARROW     &kp LA(RIGHT)       &kp LS(END)                                                          &kp LS(UP)  &kp LC(LEFT)   &kp PSCRN  &kp LC(RIGHT)       &none  &kp LA(LS(TAB))
-                &kp LCTRL   &kp LC(LS(LEFT))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(LS(RIGHT))                                                        &kp LS(DOWN)       &kp INS    &kp HOME      &kp PG_UP  &bksp_word        &kp RCTRL
-                &sk LSHFT          &kp LCTRL       &kp LC(X)      &kp K_COPY      &kp K_PASTE           &kp LALT    &kp TAB   &none   &none   &none   &none    &kp RET      &kp RALT       &kp DEL     &kp END      &kp PG_DN    &kp BSPC        &sk RSHFT
-                   &trans             &trans          &trans          &trans           &trans                     &kp SPACE   &none   &to 0   &to 0   &none  &kp SPACE                       &none       &none         &trans      &trans           &trans
+                    &none              &none      &kp C_MUTE    &kp C_VOL_DN      &kp C_VOL_UP                                                                                           &kp C_PREV    &kp K_PP     &kp C_NEXT       &none            &none
+                  &kp ESC         &kp LG(N1)          &kp F2      &kp LA(UP)        &kp LG(N4)         &kp LG(N5)                                                          &kp LG(N6)    &kp LG(N7)  &kp LG(N8)     &kp LG(N9)  &kp LG(N0)            &none
+              &kp LA(TAB)       &kp LS(HOME)    &kp LA(LEFT)    &kp UP_ARROW     &kp LA(RIGHT)        &kp LS(END)                                                          &kp LS(UP)  &kp LC(LEFT)   &kp PSCRN  &kp LC(RIGHT)       &none  &kp LA(LS(TAB))
+                &kp LCTRL   &kp LC(LS(LEFT))  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp LC(LS(RIGHT))                                                        &kp LS(DOWN)       &kp INS    &kp HOME      &kp PG_UP    &kp BSPC       &bksp_word
+                &sk LSHFT          &kp LCTRL       &kp LC(X)       &kp LC(C)         &kp LC(V)              &none    &kp TAB   &none   &none   &none   &none    &kp RET         &none       &kp DEL     &kp END      &kp PG_DN       &none        &sk RSHFT
+                   &trans             &trans          &trans          &trans            &trans                        &trans   &none   &to 0   &to 0   &none  &kp SPACE                       &none      &trans         &trans      &trans           &trans
             >;
         };
 
@@ -173,23 +173,23 @@
 
         layer_Fn2 {
             bindings = <
-                    &none      &none      &none   &kp LG(D)        &none                                                                                         &none          &none  &kp LG(L)  &kp LG(P)   &none
-          &kp LC(LS(ESC))      &none      &none       &none  &kp LG(TAB)      &none                                                                      &none   &none          &none      &none      &none   &none
- &sht LC(LS(TAB)) LC(TAB)      &none  &kp LC(W)   &kp LG(E)    &kp LC(R)  &kp LC(T)                                                                      &none   &none  &kp LG(PSCRN)      &none  &kp LC(P)   &none
-                    &none  &kp LC(A)  &kp LC(S)   &kp LC(D)    &kp LC(F)      &none                                                                      &none   &none  &kp LC(EQUAL)  &kp LC(L)      &none   &none
-                    &none  &kp LC(Z)  &kp LC(X)  &kp K_COPY  &kp K_PASTE      &none  &sht LC(LS(TAB)) LC(TAB)   &none   &none   &none   &none  &kp RET   &none   &none  &kp LC(MINUS)      &none      &none   &none
-                    &none      &none      &none       &none        &none                                &none   &none   &to 0   &to 0   &none    &none          &trans          &none      &none      &none   &none
+                    &none      &none      &none   &kp LG(D)        &none                                                                                         &none          &none             &none             &none   &none
+          &kp LC(LS(ESC))      &none      &none       &none  &kp LG(TAB)      &none                                                                      &none   &none          &none             &none             &none   &none
+ &sht LC(LS(TAB)) LC(TAB)      &none  &kp LC(W)   &kp LG(E)    &kp LC(R)  &kp LC(T)                                                                      &none   &none  &kp LG(PSCRN)             &none  &sht LG(P) LC(P)   &none
+                    &none  &kp LC(A)  &kp LC(S)   &kp LC(D)    &kp LC(F)      &none                                                                      &none   &none  &kp LC(EQUAL)  &sht LG(L) LC(L)             &none   &none
+                    &none  &kp LC(Z)  &kp LC(X)   &kp LC(C)    &kp LC(V)      &none  &sht LC(LS(TAB)) LC(TAB)   &none   &none   &none   &none  &kp RET   &none   &none  &kp LC(MINUS)             &none             &none   &none
+                    &none      &none      &none       &none        &none                                &none   &none   &to 0   &to 0   &none   &trans           &none          &none             &none             &none   &none
             >;
         };
 
         layer_Symbol {
             bindings = <
-     &none      &none     &none     &none      &none                                                                             &none     &none     &none      &none      &none
-   &kp F12     &kp F1    &kp F2    &kp F3     &kp F4     &kp F5                                                       &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
-     &none    &kp SQT    &kp AT    &kp LT  &kp PRCNT      &none                                                        &none  &kp AMPS    &kp GT  &kp BSLH  &kp MINUS      &none
- &kp LCTRL  &kp EQUAL  &kp LBRC  &kp LPAR   &kp LBKT   &kp EXCL                                                    &kp CARET  &kp RBKT  &kp RPAR  &kp RBRC  &kp COLON  &kp RCTRL
- &sk LSHFT  &kp TILDE  &kp PLUS  &kp HASH   &kp DLLR   &kp LALT   &none      &none  &none   &none  &none    &none   &kp RALT  &kp STAR  &kp PIPE  &kp FSLH  &kp QMARK  &sk RSHFT
-     &none      &none     &none     &none      &none             &trans  &kp GRAVE  &to 0   &to 0  &none   &trans                &none     &none     &none      &none      &none
+     &none      &none     &none     &none      &none                                                                               &none     &none     &none      &none      &none
+   &kp F12     &kp F1    &kp F2    &kp F3     &kp F4     &kp F5                                                         &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
+     &none    &kp SQT    &kp AT    &kp LT  &kp PRCNT     &GRAVE                                                          &none  &kp AMPS    &kp GT  &kp BSLH  &kp MINUS      &none
+ &kp LCTRL  &kp EQUAL  &kp LBRC  &kp LPAR   &kp LBKT   &kp EXCL                                                      &kp CARET  &kp RBKT  &kp RPAR  &kp RBRC  &kp COLON  &kp RCTRL
+ &kp LSHFT  &kp TILDE  &kp PLUS  &kp HASH   &kp DLLR      &none   &none      &trans  &none   &none  &trans    &none      &none  &kp STAR  &kp PIPE  &kp FSLH  &kp QMARK  &kp RSHFT
+     &none      &none  &kp LALT     &none      &none             &trans      &trans  &to 0   &to 0  &trans   &trans                &none     &none  &kp RALT      &none      &none
             >;
         };
 
