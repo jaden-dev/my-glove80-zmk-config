@@ -151,12 +151,12 @@
 
         layer_Fn1 {
             bindings = <
-                    &none              &none      &kp C_MUTE    &kp C_VOL_DN      &kp C_VOL_UP                                                                                           &kp C_PREV               &kp K_PP     &kp C_NEXT       &none            &none
-                  &kp ESC         &kp LG(N1)          &kp F2      &kp LA(UP)        &kp LG(N4)         &kp LG(N5)                                                          &kp LG(N6)    &kp LG(N7)             &kp LG(N8)     &kp LG(N9)  &kp LG(N0)            &none
-              &kp LA(TAB)       &kp LS(HOME)    &kp LA(LEFT)    &kp UP_ARROW     &kp LA(RIGHT)        &kp LS(END)                                                          &kp LS(UP)  &kp LC(LEFT)   &sht LG(PSCRN) PSCRN  &kp LC(RIGHT)       &none  &kp LA(LS(TAB))
-                  &kp ESC   &kp LC(LS(LEFT))  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp LC(LS(RIGHT))                                                        &kp LS(DOWN)       &kp INS               &kp HOME      &kp PG_UP    &kp BSPC       &bksp_word
-                &sk LSHFT          &kp LCTRL       &kp LC(X)       &kp LC(C)         &kp LC(V)              &none    &kp TAB   &none   &none   &none   &none    &kp RET         &none       &kp DEL                &kp END      &kp PG_DN       &none        &sk RSHFT
-                   &trans             &trans          &trans          &trans            &trans                        &trans   &none   &to 0   &to 0   &none  &kp SPACE                       &none                 &trans         &trans      &trans           &trans
+                    &none              &none      &kp C_MUTE    &kp C_VOL_DN      &kp C_VOL_UP                                                                                               &kp C_PREV               &kp K_PP     &kp C_NEXT       &none            &none
+                  &kp ESC         &kp LG(N1)          &kp F2      &kp LA(UP)        &kp LG(N4)         &kp LG(N5)                                                              &kp LG(N6)    &kp LG(N7)             &kp LG(N8)     &kp LG(N9)  &kp LG(N0)            &none
+              &kp LA(TAB)       &kp LS(HOME)    &kp LA(LEFT)    &kp UP_ARROW     &kp LA(RIGHT)        &kp LS(END)                                                          &kp LS(LC(UP))  &kp LC(LEFT)   &sht LG(PSCRN) PSCRN  &kp LC(RIGHT)       &none  &kp LA(LS(TAB))
+                  &kp ESC   &kp LC(LS(LEFT))  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp LC(LS(RIGHT))                                                        &kp LS(LC(DOWN))       &kp INS               &kp HOME      &kp PG_UP    &kp BSPC       &bksp_word
+                &sk LSHFT          &kp LCTRL       &kp LC(X)       &kp LC(C)         &kp LC(V)              &none    &kp TAB   &none   &none   &none   &none    &kp RET             &none       &kp DEL                &kp END      &kp PG_DN       &none        &sk RSHFT
+                   &trans             &trans          &trans          &trans            &trans                        &trans   &none   &to 0   &to 0   &none  &kp SPACE                           &none                 &trans         &trans      &trans           &trans
             >;
         };
 
