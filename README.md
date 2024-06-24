@@ -1,3 +1,7 @@
+# Notice
+
+This repository is no longer used. See: https://github.com/jaden-dev/glove80-custom-keymap.git
+
 # MoErgo Glove80 Custom Configuration for ZMK
 
 ![MoErgo Logo](moergo_logo.png)
